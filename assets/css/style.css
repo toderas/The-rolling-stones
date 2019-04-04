@@ -87,6 +87,34 @@ html {
 }
 /*------home-END--------*/
 
+/*------Bio--------*/
+.bio-card ul {
+    display: block;
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: -20px;
+}
+.bio-card-2 {
+    margin-top: 55px;
+}
+.bio-image img {
+    display: block;
+    list-style-type: none;
+}
+
+.bio-name {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+.bio-description {
+    display: block;
+    margin-top: 7px;
+}
 /*------footer------*/
 .social-links {
     text-align: center;
