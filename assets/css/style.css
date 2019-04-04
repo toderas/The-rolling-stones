@@ -1,0 +1,138 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*----------navigation-----*/
+.bg-nav {
+    background-color:#222;
+}
+
+.navbar {
+    display:block;
+}
+.menuitem {
+    height: 54px;
+    text-align: right;
+    padding-top:20px;
+}
+
+.menuitem a {
+    width: 100% ;
+    text-decoration: none;
+    color:#fff;
+    height: 54px;
+   
+}
+
+
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.menuitem span:hover {
+    transition-duration: 0.02s;
+    text-decoration:underline;
+}
+
+.navbar {
+    background-color:transparent;
+    }
+.navbar {
+    padding-bottom: 5px
+    }
+
+
+/*------home--------*/
+.hero-image {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://cdn1-www.musicfeeds.com.au/assets/uploads/rolling-stones-sydney-backdrop-supplied-671x377.jpg);
+    background-size: cover;
+  position:relative;
+  width: 100%;
+  height:auto;
+  padding-bottom: 120px;
+    
+}
+
+.quotes {
+    font-family:serif;
+    font-size:1.2em;
+    color: rgba(255,255,255,0.5);
+    padding-top:15%;
+    padding-left:20%;
+    display:inline-block;
+}
+.author {
+    text-align: left;
+    font-family: monospace;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+/*------home-END--------*/
+
+/*------footer------*/
+.social-links {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 19px;
+    line-height: 7px;
+    text-align:center;
+    color:#e84610;
+    background:#fafafa;
+   
+}
+
+.social-links li a i:hover {
+    background:rgba(255,255,255,.5);
+     transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    
+}
+.terms {
+    text-align: center;
+}
+.terms i {
+    text-align: center;
+     height: 30px;
+    padding: 12px 0;
+    display: block;
+    color:rgba(255,255,255,.5);
+    font-size: 15px;
+     width: 100% ;
+    text-decoration: none;
+}
+.copyright {
+    padding:15px;
+    text-align: center;
+}
+.copyright-text {
+    color:rgba(255,255,255,.5);
+    font-style: italic;
+}
+/*------footer-END-----*/
