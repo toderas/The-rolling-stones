@@ -7,6 +7,15 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.btn-sm {
+    text-align: center;
+    background-color:#262626;
+    display: block;
+    width: 100px;
+}
+.btn-sm a {
+    color: #fafafa;
+}
 /*----------navigation-----*/
 .bg-nav {
     background-color:#222;
