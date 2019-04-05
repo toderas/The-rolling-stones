@@ -95,6 +95,39 @@ html {
     text-decoration: underline;
 }
 /*------home-END--------*/
+/*------The Band--------*/
+.team-title {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 1.7em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.band-member  {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cover-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.member-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #000000;
+}
+.member-skills {
+    font-family:'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/*------The Band -END--------*/
 
 /*------Bio--------*/
 .bio-card ul {
