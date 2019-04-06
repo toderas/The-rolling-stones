@@ -177,6 +177,42 @@ html {
     margin-bottom: 30px;
 }
 /*------Gallery -END------*/
+/*------Music------*/
+
+.music-card {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.music-cover-img img {
+   
+    margin-right: auto;
+     margin-left: auto;
+}
+.music-player {
+    height: 50%;
+    text-align: left;
+}
+.music-player audio {
+    margin-top:15px;
+
+}
+.music-description p {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+.music-description span {
+    display: block;
+    line-height: 2em;
+    letter-spacing: 2px
+}
+
+/*------Music -END------*/
 /*------footer------*/
 .social-links {
     text-align: center;
