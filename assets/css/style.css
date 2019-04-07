@@ -186,11 +186,19 @@ html {
     text-align: center;
     padding:15px;
 }
+
 .music-cover-img img {
-   
     margin-right: auto;
      margin-left: auto;
 }
+.music-cover-img-rt {
+    float:right;
+}
+.music-cover-img-rt img {
+    margin-right: auto;
+     margin-left: auto;
+}
+
 .music-player {
     height: 50%;
     text-align: left;
