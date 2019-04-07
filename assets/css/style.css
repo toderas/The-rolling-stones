@@ -180,11 +180,11 @@ html {
 /*------Music------*/
 
 .music-card {
-    width: 100%;
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+    padding:15px;
 }
 .music-cover-img img {
    
@@ -208,8 +208,14 @@ html {
 }
 .music-description span {
     display: block;
+    text-align: left;
     line-height: 2em;
     letter-spacing: 2px
+}
+@media only screen and (max-width: 768px) {
+  .music-player, .music-description p,   .music-description span  {
+    text-align: center;
+  }
 }
 
 /*------Music -END------*/
