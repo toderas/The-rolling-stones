@@ -351,6 +351,31 @@ html {
   opacity: 0.5
 }
 /*------Calendar-END------*/
+/*------Contact------*/
+.contact-title {
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+.contact-invite {
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.contact-address {
+    text-align: left;
+}
+.contact-address-item {
+    padding: 18px;
+    color:#696969;
+}
+.btn-dark {
+    color: #d3d3d3;
+    background-color: #222
+}
+
+/*------Contact-END------*/
 /*------footer------*/
 .social-links {
     text-align: center;
