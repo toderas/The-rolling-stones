@@ -183,8 +183,9 @@ html {
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align:center;
     padding:15px;
+    border-style: solid;
 }
 
 .music-cover-img img {
@@ -224,6 +225,13 @@ html {
   .music-player, .music-description p,   .music-description span  {
     text-align: center;
   }
+}
+.music-ad {
+     height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align:center;
+    padding:15px;
 }
 
 /*------Music -END------*/
