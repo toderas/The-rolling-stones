@@ -253,6 +253,104 @@ html {
     font-size: 1.5em;
 }
 /*------Video-End------*/
+/*------Calendar------*/
+.calendar-base {
+    text-align: center;
+    width:442px;
+    height:auto;
+    position: relative;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.arrow-left {
+     float: left;
+  position: relative;
+  left:40%;
+  top: -17px;
+}
+.arrow-right {
+    float:right;
+    position:relative;
+    right:40%;
+    top:-17px;
+}
+.months {
+    background-color: #74e088;
+    word-spacing: 5px;
+}
+.month-line {
+  color: #000;
+  border-color: #E8E8E8;
+  position: relative;
+  top: -15px;
+  width: 90%;
+}
+
+    .days {
+  color: #AAAAAA;
+  position: relative;
+  font-size: 15px;
+  top: -25px;
+  word-spacing: 5px;
+  font-weight: 600;
+}
+.num-dates {
+  float: none;
+  position: relative;
+  word-spacing: 20px;
+  top:-15px;
+ 
+}
+.grey {
+  color: #AAAAB1;
+}
+.first-week {
+    height: 35px;
+}
+.second-week {
+    height: 35px;
+}
+.third-week {
+    height: 45px;
+}
+.fourth-week {
+    height: 45px;
+}
+.fifth-week {
+    height: 35px;
+}
+.event-date{
+    background-color: #74e088;
+    border-radius: 90%;
+}
+.event {
+    float: none;
+    position: relative;
+    top: -120px;
+    left:130px;
+    display: inline-block;
+    background-color: #74e088;
+}
+.event-two {
+    float: none;
+    position: relative;
+    top: -75px;
+    left:-30px;
+    display: inline-block;
+    background-color: #74e088;
+}
+.active-day {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #2ECC71;
+  position: relative;
+  top:-238px;
+  left:85px;
+  opacity: 0.5
+}
+/*------Calendar-END------*/
 /*------footer------*/
 .social-links {
     text-align: center;
