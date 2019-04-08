@@ -232,9 +232,27 @@ html {
     margin-bottom: 30px;
     text-align:center;
     padding:15px;
+    
 }
 
 /*------Music -END------*/
+/*------Video------*/
+.showcase-item {
+    padding-top:40px;
+
+}
+.showcase-item iframe{
+    box-shadow: 5px 10px #888888;
+}
+.showcase-item, p {
+    text-align: center;
+}
+.showcase-item p {
+    font-family: serif;
+    color: #222;
+    font-size: 1.5em;
+}
+/*------Video-End------*/
 /*------footer------*/
 .social-links {
     text-align: center;
