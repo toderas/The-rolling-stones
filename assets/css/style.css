@@ -147,6 +147,11 @@ html {
     display: block;
     list-style-type: none;
 }
+.bio-image-bottom img {
+    display: block;
+    list-style-type: none;
+    margin-bottom: 25px;
+}
 
 .bio-name {
     display: block;
