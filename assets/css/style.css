@@ -1,45 +1,49 @@
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .btn-sm {
     text-align: center;
-    background-color:#262626;
+    background-color: #262626;
     display: block;
     width: 100px;
 }
+
 .btn-sm a {
     color: #fafafa;
 }
+
 .m-bt-3 {
     margin-bottom: 30px;
 }
 
 /*----------navigation-----*/
+
 .bg-nav {
-    background-color:#222;
+    background-color: #222;
 }
 
 .navbar {
-    display:block;
+    display: block;
 }
+
 .menuitem {
     height: 54px;
     text-align: right;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 .menuitem a {
-    width: 100% ;
+    width: 100%;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     height: 54px;
-   
+
 }
 
 
@@ -57,49 +61,52 @@ html {
 
 .menuitem span:hover {
     transition-duration: 0.02s;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .navbar {
-    background-color:transparent;
-    }
+    background-color: transparent;
+}
+
 .navbar {
     padding-bottom: 5px
-    }
+}
 
 
 /*------home--------*/
+
 .hero-image {
-    background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
     url(https://cdn1-www.musicfeeds.com.au/assets/uploads/rolling-stones-sydney-backdrop-supplied-671x377.jpg);
     background-size: cover;
-  position:relative;
-  width: 100%;
-  height:auto;
-  padding-bottom: 120px;
-    
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 120px;
+
 }
 
 .quotes {
-    font-family:serif;
-    font-size:1.2em;
-    color: rgba(255,255,255,0.5);
-    padding-top:15%;
-    padding-left:20%;
-    display:inline-block;
+    font-family: serif;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 15%;
+    padding-left: 20%;
+    display: inline-block;
 }
+
 .author {
     text-align: left;
     font-family: monospace;
     font-size: 1.5em;
     text-decoration: underline;
 }
+
 /*------home-END--------*/
+
 /*------The Band--------*/
+
 .team-title {
     text-align: center;
     font-family: "roboto", sans-serif;
@@ -108,7 +115,7 @@ html {
     margin-bottom: 50px;
 }
 
-.band-member  {
+.band-member {
     text-align: center;
     margin-bottom: 25px;
 }
@@ -125,8 +132,9 @@ html {
     font-style: italic;
     color: #000000;
 }
+
 .member-skills {
-    font-family:'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: italic;
     font-size: 1.2em;
 }
@@ -134,6 +142,7 @@ html {
 /*------The Band -END--------*/
 
 /*------Bio--------*/
+
 .bio-card ul {
     display: block;
     width: 100%;
@@ -142,13 +151,16 @@ html {
     margin-top: 25px;
     margin-left: -20px;
 }
+
 .bio-card-2 {
     margin-top: 55px;
 }
+
 .bio-image img {
     display: block;
     list-style-type: none;
 }
+
 .bio-image-bottom img {
     display: block;
     list-style-type: none;
@@ -162,205 +174,249 @@ html {
     letter-spacing: 5px;
     text-decoration: underline;
 }
+
 .bio-description {
     display: block;
     margin-top: 7px;
 }
+
 /*------Bio -END------*/
+
 /*------Gallery------*/
+
 .gallery-img-container {
     margin-top: 50px;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
+
 .gallery-img-container img {
     width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
+
 .gallery-img-container img:last {
     margin-bottom: 30px;
 }
+
 /*------Gallery -END------*/
+
 /*------Music------*/
 
 .music-card {
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align:center;
-    padding:15px;
+    text-align: center;
+    padding: 15px;
     border-style: solid;
 }
 
 .music-cover-img img {
     margin-right: auto;
-     margin-left: auto;
+    margin-left: auto;
 }
+
 .music-cover-img-rt {
-    float:right;
+    float: right;
 }
+
 .music-cover-img-rt img {
     margin-right: auto;
-     margin-left: auto;
+    margin-left: auto;
 }
 
 .music-player {
     height: 50%;
     text-align: left;
 }
+
 .music-player audio {
-    margin-top:15px;
+    margin-top: 15px;
 
 }
+
 .music-description p {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     text-align: left;
     text-decoration: underline;
     padding-top: 20px;
 }
+
 .music-description span {
     display: block;
     text-align: left;
     line-height: 2em;
     letter-spacing: 2px
 }
+
 @media only screen and (max-width: 768px) {
-  .music-player, .music-description p,   .music-description span  {
-    text-align: center;
-  }
+    .music-player,
+    .music-description p,
+    .music-description span {
+        text-align: center;
+    }
 }
+
 .music-ad {
-     height: auto;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 30px;
-    text-align:center;
-    padding:15px;
-    
+    text-align: center;
+    padding: 15px;
+
 }
 
 /*------Music -END------*/
+
 /*------Video------*/
+
 .showcase-item {
-    padding-top:40px;
+    padding-top: 40px;
 
 }
-.showcase-item iframe{
+
+.showcase-item iframe {
     box-shadow: 5px 10px #888888;
 }
-.showcase-item, p {
+
+.showcase-item,
+p {
     text-align: center;
 }
+
 .showcase-item p {
     font-family: serif;
     color: #222;
     font-size: 1.5em;
 }
+
 /*------Video-End------*/
+
 /*------Calendar------*/
+
 .calendar-base {
     text-align: center;
-    width:442px;
-    height:auto;
+    width: 442px;
+    height: auto;
     position: relative;
     padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .arrow-left {
-     float: left;
-  position: relative;
-  left:40%;
-  top: -17px;
+    float: left;
+    position: relative;
+    left: 40%;
+    top: -17px;
 }
+
 .arrow-right {
-    float:right;
-    position:relative;
-    right:40%;
-    top:-17px;
+    float: right;
+    position: relative;
+    right: 40%;
+    top: -17px;
 }
+
 .months {
     background-color: #74e088;
     word-spacing: 5px;
 }
+
 .month-line {
-  color: #000;
-  border-color: #E8E8E8;
-  position: relative;
-  top: -15px;
-  width: 90%;
+    color: #000;
+    border-color: #E8E8E8;
+    position: relative;
+    top: -15px;
+    width: 90%;
 }
 
-    .days {
-  color: #AAAAAA;
-  position: relative;
-  font-size: 15px;
-  top: -25px;
-  word-spacing: 5px;
-  font-weight: 600;
+.days {
+    color: #AAAAAA;
+    position: relative;
+    font-size: 15px;
+    top: -25px;
+    word-spacing: 5px;
+    font-weight: 600;
 }
+
 .num-dates {
-  float: none;
-  position: relative;
-  word-spacing: 20px;
-  top:-15px;
- 
+    float: none;
+    position: relative;
+    word-spacing: 20px;
+    top: -15px;
+
 }
+
 .grey {
-  color: #AAAAB1;
+    color: #AAAAB1;
 }
+
 .first-week {
     height: 35px;
 }
+
 .second-week {
     height: 35px;
 }
+
 .third-week {
     height: 45px;
 }
+
 .fourth-week {
     height: 45px;
 }
+
 .fifth-week {
     height: 35px;
 }
-.event-date{
+
+.event-date {
     background-color: #74e088;
     border-radius: 90%;
 }
+
 .event {
     float: none;
     position: relative;
     top: -120px;
-    left:130px;
+    left: 130px;
     display: inline-block;
     background-color: #74e088;
 }
+
 .event-two {
     float: none;
     position: relative;
     top: -75px;
-    left:-30px;
+    left: -30px;
     display: inline-block;
     background-color: #74e088;
 }
+
 .active-day {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background-color: #2ECC71;
-  position: relative;
-  top:-238px;
-  left:85px;
-  opacity: 0.5
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #2ECC71;
+    position: relative;
+    top: -238px;
+    left: 85px;
+    opacity: 0.5
 }
+
 /*------Calendar-END------*/
+
 /*------Contact------*/
+
 .contact-title {
-    text-align:center;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
 }
@@ -370,20 +426,25 @@ html {
     margin-left: 35px;
     margin-right: 35px;
 }
+
 .contact-address {
     text-align: left;
 }
+
 .contact-address-item {
     padding: 18px;
-    color:#696969;
+    color: #696969;
 }
+
 .btn-dark {
     color: #d3d3d3;
     background-color: #222
 }
 
 /*------Contact-END------*/
+
 /*------footer------*/
+
 .social-links {
     text-align: center;
     padding-top: 32px;
@@ -396,39 +457,44 @@ html {
     border-radius: 50%;
     font-size: 19px;
     line-height: 7px;
-    text-align:center;
-    color:#e84610;
-    background:#fafafa;
-   
+    text-align: center;
+    color: #e84610;
+    background: #fafafa;
+
 }
 
 .social-links li a i:hover {
-    background:rgba(255,255,255,.5);
-     transition: all 0.1s ease-in-out;
+    background: rgba(255, 255, 255, .5);
+    transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
-    
+
 }
+
 .terms {
     text-align: center;
 }
+
 .terms i {
     text-align: center;
-     height: 30px;
+    height: 30px;
     padding: 12px 0;
     display: block;
-    color:rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     font-size: 15px;
-     width: 100% ;
+    width: 100%;
     text-decoration: none;
 }
+
 .copyright {
-    padding:15px;
+    padding: 15px;
     text-align: center;
 }
+
 .copyright-text {
-    color:rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     font-style: italic;
 }
+
 /*------footer-END-----*/
