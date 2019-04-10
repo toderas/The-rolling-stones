@@ -16,7 +16,9 @@ html {
 .btn-sm a {
     color: #fafafa;
 }
-
+.m-bt-3 {
+    margin-bottom: 30px;
+}
 
 /*----------navigation-----*/
 .bg-nav {
