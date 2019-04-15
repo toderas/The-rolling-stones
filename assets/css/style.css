@@ -193,14 +193,14 @@ html {
 /*------Gallery------*/
 
 .gallery-img-container {
+    
     margin-top: 50px;
     margin-bottom: 0;
     
 }
 
 .gallery-img-container img {
-    
-    width: 100%;
+     width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -410,7 +410,7 @@ border: none;
     background-color: #74e088;
 }
 
-.event-two {
+.event-two{
     float: none;
     position: relative;
     top: -75px;
@@ -418,7 +418,9 @@ border: none;
     display: inline-block;
     background-color: #74e088;
 }
-
+.event a , .event-two a  {
+    color: #222;
+}
 .active-day {
     width: 35px;
     height: 35px;
