@@ -20,7 +20,7 @@ Features
 
 Existing Features 
 Information page with link towards wikipedia
-Media pages with plenty videos and one audio files.
+Media pages with plenty videos and  audio files.
 Contact page aiming at both, fans and possible collaborators.
 Calendar with infomation about future events 
 Information about the band's members 
@@ -54,15 +54,12 @@ Credits
     Media
         Photos used in this website were obtained vrom various sources including amazon , the rolling stones official website , wikipedia 
     Video 
-        video clips used in this website belong to VEVO (youtube channel) and various channels , Eagle Rocks youtube channel, 
-        leigh45dancy416-youtube channel
+        video clips used in this website were obtained from youtube
     Audio
         Audio files used in this project mainly belong to wikipedia (hence 30sec limit to prevent coyright  infringement)
     
     
 Information
     The information used to create this site was from a number of sources
-        Wikipedia page about the band's members 
-        wikipedia page about the band 
-        Rolling Stones Official website
+        Wikipedia,  Rolling Stones Official website , youtube 
         
