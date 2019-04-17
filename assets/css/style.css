@@ -12,6 +12,7 @@ html {
     background-color: #262626;
     display: block;
     width: 100px;
+    margin: 7px;
 }
 
 .btn-sm a {
@@ -131,7 +132,7 @@ html {
 .cover-image {
     width: 250px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 35%;
 }
 
 .member-name {
@@ -184,6 +185,7 @@ html {
 }
 
 .bio-description {
+    font-family: 'Raleway', sans-serif;
     display: block;
     margin-top: 7px;
 }
