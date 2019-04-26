@@ -25,6 +25,24 @@ html {
 
 /*----------navigation-----*/
 
+.menu-heading {
+    color: #fff;
+    font-size: 25px;
+}
+.navbar-button {
+    color: #f2f2f2;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-heading {
+    display: none;
+  }
+  .navbar-button {
+      display: none;
+  }
+}
 .bg-nav {
     background-color: #222;
 }
