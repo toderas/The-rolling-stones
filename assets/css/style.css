@@ -80,6 +80,7 @@ html {
 .menuitem span:hover {
     transition-duration: 0.02s;
     text-decoration: underline;
+    color: #d3d3d3;
 }
 
 .navbar {
