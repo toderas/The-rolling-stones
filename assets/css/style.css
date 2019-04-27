@@ -372,6 +372,14 @@ p {
     top: -15px;
     width: 90%;
 }
+.month-hover {
+    transition: transform .2s;
+}
+.month-hover:hover { 
+   text-decoration: underline;
+}
+    
+
 .days {
     color: #AAAAAA;
     position: relative;
@@ -424,7 +432,7 @@ p {
     left: 130px;
     display: inline-block;
     background-color: #74e088;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 .event-two {
     float: none;
@@ -433,7 +441,7 @@ p {
     left: -30px;
     display: inline-block;
     background-color: #74e088;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 .event a,
 .event-two a {
@@ -471,16 +479,21 @@ p {
     margin-bottom: 50px;
 }
 .contact-invite {
+    font-family:'Raleway' ,  sans-serif ;
     text-align: left;
     margin-left: 15px;
 }
 .contact-address {
     text-align: left;
-    margin-left: 0;
+    margin-left:-30px;
 }
 .contact-address-item {
+    font-family: 'Raleway', sans-serif;
     padding-bottom: 18px;
     color: #696969;
+}
+.contact-address-item span {
+    margin-left: 15px;
 }
 .btn-dark {
     color: #d3d3d3;
