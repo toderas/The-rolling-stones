@@ -223,6 +223,7 @@ blockquote span {
     padding: 15px;
     border-style: solid;
 }
+
 .music-cover-img img {
     margin-right: auto;
     margin-left: auto;
@@ -241,14 +242,19 @@ blockquote span {
 .music-player audio {
     margin-top: 15px;
 }
+audio {
+    width: 270px;
+    height: 54px;
+}
 .music-description p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-family:'Roboto' , sans-serif;
+    font-size: 1.4em;
     text-align: left;
     text-decoration: underline;
     padding-top: 20px;
 }
 .music-description span {
+    font-family:'Raleway', sans-serif;
     display: block;
     text-align: left;
     line-height: 2em;
@@ -259,6 +265,12 @@ blockquote span {
     .music-description p,
     .music-description span {
         text-align: center;
+    }
+}
+@media only screen and (max-width:390px) {
+    .music-card {
+        left: -8.33%;
+        width: 100%
     }
 }
 .music-ad {
@@ -281,9 +293,6 @@ blockquote span {
 .showcase-item {
     padding-top: 40px;
 }
-.showcase-item iframe {
-    box-shadow: 5px 10px #888888;
-}
 .showcase-item,
 p {
     text-align: center;
@@ -294,7 +303,7 @@ p {
     font-size: 1.5em;
 }
 .showcase-item iframe {
-    width: 360px;
+    max-width: 360px;
     height: 257px;
     margin: 0;
     padding: 0;
