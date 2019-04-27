@@ -82,16 +82,6 @@ html {
     text-decoration: underline;
     color: #d3d3d3;
 }
-
-.navbar {
-    background-color: transparent;
-}
-
-.navbar {
-    padding-bottom: 5px
-}
-
-
 /*------home--------*/
 
 .hero-image {
@@ -105,12 +95,7 @@ html {
     background-position: center top;
     background-repeat: no-repeat;
 }
-
-
-
-
 .quotes {
-    font-family: serif;
     font-size: 1.2em;
     color: rgba(255, 255, 255, 0.5);
     padding-top: 25%;
@@ -118,25 +103,22 @@ html {
     padding-bottom: 15%;
     display: inline-block;
 }
-
 blockquote {
     text-align: left;
-    font-family: monospace;
+    font-family: 'Raleway', sans-serif;
     color: #b1b9c9;
 }
 blockquote span {
     display: block;
     text-align: right;
-    font-family: sans-serif;
+    font-family: 'Roboto' sans-serif;
     font-size: 1.5em;
     text-decoration: underline;
     color: #bbc1cc;
 }
-
 /*------home-END--------*/
 
 /*------The Band--------*/
-
 .team-title {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -150,20 +132,17 @@ blockquote span {
     margin-bottom: 25px;
     padding: 25px;
 }
-
 .cover-image {
     width: 250px;
     height: 250px;
     border-radius: 35%;
 }
-
 .member-name {
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
     font-style: italic;
     color: #000000;
 }
-
 .member-skills {
     font-family: 'Roboto Condensed', sans-serif;
     font-style: italic;
@@ -183,11 +162,9 @@ blockquote span {
     margin-left:5px;
     background:#fff;
 }
-
 /*------The Band -END--------*/
 
 /*------Bio--------*/
-
 .bio-card ul {
     display: block;
     width: 100%;
@@ -196,22 +173,18 @@ blockquote span {
     margin-top: 25px;
     margin-left: -20px;
 }
-
 .bio-card-2 {
     margin-top: 55px;
 }
-
 .bio-image img {
     display: block;
     list-style-type: none;
 }
-
 .bio-image-bottom img {
     display: block;
     list-style-type: none;
     margin-bottom: 25px;
 }
-
 .bio-name {
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -219,25 +192,19 @@ blockquote span {
     letter-spacing: 5px;
     text-decoration: underline;
 }
-
 .bio-description {
     font-family: 'Raleway', sans-serif;
     display: block;
     text-align: left;
     padding-left: 15px;
 }
-
 /*------Bio -END------*/
 
 /*------Gallery------*/
-
 .gallery-img-container {
-
     margin-top: 50px;
     margin-bottom: 0;
-
 }
-
 .gallery-img-container img {
     width: 100%;
     height: auto;
@@ -245,11 +212,9 @@ blockquote span {
     margin-left: auto;
     margin-right: auto;
 }
-
 /*------Gallery -END------*/
 
 /*------Music------*/
-
 .music-card {
     height: auto;
     margin-top: 20px;
@@ -258,31 +223,24 @@ blockquote span {
     padding: 15px;
     border-style: solid;
 }
-
 .music-cover-img img {
     margin-right: auto;
     margin-left: auto;
 }
-
 .music-cover-img-rt {
     float: right;
 }
-
 .music-cover-img-rt img {
     margin-right: auto;
     margin-left: auto;
 }
-
 .music-player {
     height: 50%;
     text-align: left;
 }
-
 .music-player audio {
     margin-top: 15px;
-
 }
-
 .music-description p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
@@ -290,14 +248,12 @@ blockquote span {
     text-decoration: underline;
     padding-top: 20px;
 }
-
 .music-description span {
     display: block;
     text-align: left;
     line-height: 2em;
     letter-spacing: 2px
 }
-
 @media only screen and (max-width: 768px) {
     .music-player,
     .music-description p,
@@ -305,16 +261,13 @@ blockquote span {
         text-align: center;
     }
 }
-
 .music-ad {
     height: auto;
     margin-top: 20px;
     margin-bottom: 30px;
     text-align: center;
     padding: 15px;
-
 }
-
 .music-ad iframe {
     width: 300px;
     height: 380px;
@@ -322,31 +275,24 @@ blockquote span {
     padding: 0;
     border: none;
 }
-
 /*------Music -END------*/
 
 /*------Video------*/
-
 .showcase-item {
     padding-top: 40px;
-
 }
-
 .showcase-item iframe {
     box-shadow: 5px 10px #888888;
 }
-
 .showcase-item,
 p {
     text-align: center;
 }
-
 .showcase-item p {
     font-family: serif;
     color: #222;
     font-size: 1.5em;
 }
-
 .showcase-item iframe {
     width: 360px;
     height: 257px;
@@ -354,11 +300,9 @@ p {
     padding: 0;
     border: none;
 }
-
 /*------Video-End------*/
 
 /*------Calendar------*/
-
 .calendar-base {
     text-align: center;
     width: 442px;
@@ -394,7 +338,6 @@ p {
     top: -17px;
 }
 }
-
 .arrow-right {
     float: right;
     position: relative;
@@ -409,7 +352,6 @@ p {
     top: -17px;
 }
 }
-
 .months {
     background-color: #74e088;
     word-spacing: 5px;
@@ -421,7 +363,6 @@ p {
     top: -15px;
     width: 90%;
 }
-
 .days {
     color: #AAAAAA;
     position: relative;
@@ -443,38 +384,30 @@ p {
     position: relative;
     word-spacing: 20px;
     top: -15px;
-
 }
 
 .grey {
     color: #AAAAB1;
 }
-
 .first-week {
     height: 35px;
 }
-
 .second-week {
     height: 35px;
 }
-
 .third-week {
     height: 45px;
 }
-
 .fourth-week {
     height: 45px;
 }
-
 .fifth-week {
     height: 35px;
 }
-
 .event-date {
     background-color: #74e088;
     border-radius: 90%;
 }
-
 .event {
     float: none;
     position: relative;
@@ -484,7 +417,6 @@ p {
     background-color: #74e088;
     border-radius: 20%;
 }
-
 .event-two {
     float: none;
     position: relative;
@@ -494,12 +426,10 @@ p {
     background-color: #74e088;
     border-radius: 20%;
 }
-
 .event a,
 .event-two a {
     color: #222;
 }
-
 .active-day {
     width: 35px;
     height: 35px;
@@ -526,28 +456,23 @@ p {
 /*------Calendar-END------*/
 
 /*------Contact------*/
-
 .contact-title {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
 }
-
 .contact-invite {
     text-align: left;
     margin-left: 35px;
     margin-right: 35px;
 }
-
 .contact-address {
     text-align: left;
 }
-
 .contact-address-item {
     padding: 18px;
     color: #696969;
 }
-
 .btn-dark {
     color: #d3d3d3;
     background-color: #222
@@ -561,7 +486,6 @@ p {
     text-align: center;
     padding-top: 32px;
 }
-
 .social-links li a i {
     width: 30px;
     height: 30px;
@@ -572,7 +496,6 @@ p {
     text-align: center;
     color: #e84610;
     background: #fafafa;
-
 }
 
 .social-links li a i:hover {
@@ -581,13 +504,11 @@ p {
     -moz-transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
-
 }
 
 .terms {
     text-align: center;
 }
-
 .terms i {
     text-align: center;
     height: 30px;
@@ -598,15 +519,12 @@ p {
     width: 100%;
     text-decoration: none;
 }
-
 .copyright {
     padding: 15px;
     text-align: center;
 }
-
 .copyright-text {
     color: rgba(255, 255, 255, .5);
     font-style: italic;
 }
-
 /*------footer-END-----*/
