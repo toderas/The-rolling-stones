@@ -13,6 +13,7 @@ What does it do ?
 this website presents general information about the band, it's members and their work .
 
 How does it work?
+
 This Website has been written in html and css and it's using bootstrap for scalability and layout . 
 It also includes javascript and jquerry for collapsible menu bar (this snippet of code and the links have been imported from w3schools)
 
@@ -27,6 +28,7 @@ Information about the band's members
 
 Features Left To Implement
 shop section from where users can buy various items related to the band .
+an interactive map for the users to check future events with the option of buying tickets from there 
 
 
 Tech Used 
