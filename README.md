@@ -1,5 +1,4 @@
-# The-rolling-stones
-milestone-project
+
 
 # The_Rolling_Stones
 The Rolling Stones Website
@@ -37,7 +36,8 @@ html, css
 Bootstrap
      We use Bootstrap to give our site a simple responsive layout
      
-
+Javascript 
+    i have used javascript for collapsible content
 
 Testing 
 
@@ -57,7 +57,12 @@ Credits
         video clips used in this website were obtained from youtube
     Audio
         Audio files used in this project mainly belong to wikipedia (hence 30sec limit to prevent coyright  infringement)
-    
+    Content 
+        Blocks Of Code Have Been Copied From Previous Verions of the projects which can be found at 
+        https://github.com/toderas/rolling_stones
+        https://github.com/toderas/The-Rolling-Stones-v3
+        
+    w3schools , codepen , and google
     
 Information
     The information used to create this site was from a number of sources
