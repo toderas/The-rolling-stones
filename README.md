@@ -13,12 +13,13 @@ What does it do ?
 this website presents general information about the band, it's members and their work .
 
 How does it work?
-This Website has been written in html and css and it's using bootstrap for scalability and layout .
+This Website has been written in html and css and it's using bootstrap for scalability and layout . 
+It also includes javascript and jquerry for collapsible menu bar (this snippet of code and the links have been imported from w3schools)
 
 Features
 
 Existing Features 
-Information page with link towards wikipedia
+Links towards the band's social media accounts 
 Media pages with plenty videos and  audio files.
 Contact page aiming at both, fans and possible collaborators.
 Calendar with infomation about future events 
@@ -62,7 +63,6 @@ Credits
         https://github.com/toderas/rolling_stones
         https://github.com/toderas/The-Rolling-Stones-v3
         
-    w3schools , codepen , and google
     
 Information
     The information used to create this site was from a number of sources
